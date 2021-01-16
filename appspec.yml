@@ -19,6 +19,6 @@ hooks:
       timeout: 5
       runas: root
   ApplicationStop:
-    - location: script/stop_server.sh
+    - location: scripts/stop_server.sh
       timeout: 10
       runas: root
