@@ -1,3 +1,6 @@
 #! /bin/bash
 
-rm /var/www/html/index.html
+if [[ -f /var/www/html/index.html ]]; then
+  echo "file exists"
+  rm -f /var/www/html/index.html
+fi
