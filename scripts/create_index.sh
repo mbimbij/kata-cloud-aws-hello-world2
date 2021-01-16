@@ -1,3 +1,3 @@
 #! /bin/bash
 
-echo "Hello world - v2 from $(hostname)" > ../index.html
+echo "Hello world - v2 from $(hostname)" > /index.html
