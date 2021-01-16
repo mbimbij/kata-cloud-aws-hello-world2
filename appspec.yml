@@ -8,6 +8,9 @@ hooks:
     - location: scripts/install_dependencies.sh
       timeout: 120
       runas: root
+    - location: scripts/delete_old_index.sh
+      timeout: 5
+      runas: root
     - location: scripts/create_index.sh
       timeout: 5
       runas: root
